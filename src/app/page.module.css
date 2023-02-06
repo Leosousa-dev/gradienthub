@@ -2,3 +2,12 @@
     max-width: 538px;
     margin: auto;
 }
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+    color: #B8B8BB;
+}

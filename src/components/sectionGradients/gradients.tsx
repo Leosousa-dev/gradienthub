@@ -3,7 +3,7 @@ import styles from './gradientSection.module.css'
 import {gradients} from '@/data/data.json'
 
 
-const Gradients = ()=>{
+const GradientSection = ()=>{
     return(
         <section className={styles.section}>
             <ul className={styles.listCards}>
@@ -15,4 +15,4 @@ const Gradients = ()=>{
     )
 }
 
-export default Gradients;
+export default GradientSection;
