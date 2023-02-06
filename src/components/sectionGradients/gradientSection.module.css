@@ -1,0 +1,17 @@
+
+.section{
+    margin-bottom: 32px;
+}
+.listCards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+@media screen and (max-width: 425px) {
+    .listCards{
+     flex-direction: column;
+     align-items: center;
+    }    
+  }

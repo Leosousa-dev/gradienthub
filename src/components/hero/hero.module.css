@@ -21,9 +21,27 @@
     text-align: center;
     font-size: 20px;
     padding: 0px 70px;
-    font-weight: 300;
+    padding-top: 8px;
 }
 .quote{
     font-weight: 300;
     margin: 44px 0px 32px 0px;
+    text-align: center;
 }
+
+
+@media screen and (max-width: 425px) {
+    .paragraph{
+      padding: 0px 8px;
+      font-size: 18px;
+    }
+    .quote{
+        font-size: 15px;
+    }
+    
+  }
+  @media screen and (min-width: 425px) {
+    .paragraph{
+        font-size: 20px;
+    }
+  }
