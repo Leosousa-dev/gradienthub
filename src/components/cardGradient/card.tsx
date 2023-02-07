@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import styles from './card.module.css'
 
 type Cardprops ={
     colors: string[]
 }
+
 
 const Card = ({colors}:Cardprops)=>{
     return(
@@ -11,9 +13,13 @@ const Card = ({colors}:Cardprops)=>{
             <div className={styles.copy}>
                 <div className={styles.colors}>
                     <div className={styles.smallPreview} style={{background:`${colors[0]}`}}/>
-                    <h4>{colors[0]}</h4>
+                    <h4 className={styles.hexcopy}>
+                        {colors[0]}
+                    </h4>
                     <div className={styles.smallPreview} style={{background:`${colors[1]}`}}/>
-                    <h4>{colors[1]}</h4>
+                    <h4 className={styles.hexcopy}>
+                        {colors[1]}
+                    </h4>
                 </div>
             </div>
         </div>

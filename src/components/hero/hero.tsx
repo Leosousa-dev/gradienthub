@@ -12,8 +12,8 @@ const Hero = ()=>{
                 <h1 className={styles.title}>GridientHub</h1>
             </div>
             <Image src={preview} alt="exploding-head"/>
-            <p className={styles.paragraph}>Esta página oferece gradientes vibrantes e atraentes para melhorar a aparência da UI.</p>
-            <p className={styles.quote}>“A simplicidade e o mais alto grau de sofisticação”</p>
+            <p className={styles.paragraph}>This page offers vibrant and eye-catching gradients to enhance the UI appearance.</p>
+            <p className={styles.quote}>“Simplicity and the highest degree of sophistication”</p>
         </section>
     )
 }
