@@ -1,6 +1,30 @@
 {
     "gradients":[
         {"id": 1, "colors":["#BC4E9C","#F80759"]},
-        {"id": 2, "colors":["#4AE0F9","#3B94F0"]}
+        {"id": 2, "colors":["#4AE0F9","#3B94F0"]},
+        {"id": 3, "colors":["#FF78E1","#B413DC"]},
+        {"id": 4, "colors":["#A5FF7E","#7AFFD1"]},
+        {"id": 5, "colors":["#EF1188","#FF4D00"]},
+        {"id": 6, "colors":["#FFC100","#FF4D00"]},
+        {"id": 7, "colors":["#0EFA9F","#A4A4A4"]},
+        {"id": 8, "colors":["#8A17E4","#480EA7"]},
+        {"id": 9, "colors":["#7AFFD1","#330365"]},
+        {"id": 10, "colors":["#AB1891","#310167"]},
+        {"id": 11, "colors":["#FFC100","#FF78E1"]},
+        {"id": 12, "colors":["#75D12C","#E3E33F"]},
+        {"id": 13, "colors":["#FEFEFE","#F81360"]},
+        {"id": 14, "colors":["#BF4A98","#F50A5C"]},
+        {"id": 15, "colors":["#310167","#0A7AFF"]},
+        {"id": 16, "colors":["#654EA3","#EAAFC8"]},
+        {"id": 17, "colors":["#C6FF1A","#FEFEFE"]},
+        {"id": 18, "colors":["#BC4E9C","#F80759"]},
+        {"id": 19, "colors":["#A3FF82","#E8E8E8"]},
+        {"id": 20, "colors":["#FD8908","#F16174"]},
+        {"id": 21, "colors":["#1CEFFF","#C0C0AA"]},
+        {"id": 22, "colors":["#8F2BE5","#C159F1"]},
+        {"id": 23, "colors":["#00E4F5","#D5FF9F"]},
+        {"id": 24, "colors":["#94EDF8","#745FF3"]},
+        {"id": 25, "colors":["#5038BC","#70C2DF"]},
+        {"id": 26, "colors":["#3BEEB7","#C6FF1A"]}
     ]
 }
