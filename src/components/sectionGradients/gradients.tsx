@@ -7,7 +7,7 @@ const GradientSection = ()=>{
     return(
         <section className={styles.section}>
             <ul className={styles.listCards}>
-               {gradients.map((gradeint,id )=>(
+               {gradients?.map((gradeint,id )=>(
                    <li key={id}><Card key={id} colors={gradeint.colors}/></li>
                ))}
             </ul>

@@ -11,13 +11,9 @@
     gap: 8px;
     padding: 32px 0px 8px 0px;
 }
-.menssage{
-    font-size: 16px;
-    color: #E2E8F0;
-    font-weight: 300;
-}
 .title{
     font-weight: 600;
+    font-size: 32px;
     background: linear-gradient(90deg, #FE8C00 2.54%, #F05D80 80.71%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -27,6 +23,10 @@
     font-size: 20px;
     padding: 0px 70px;
     padding-top: 8px;
+}
+.emoji{
+    width: 45px;
+    height: 45px;
 }
 .quote{
     font-weight: 300;
@@ -41,13 +41,11 @@
     .paragraph{
       padding: 0px 9px;
       font-size: 18px;
+      padding-top: 8px;
     }
     .quote{
         font-size: 15px;
         padding: 0px 10px;
-    }
-    .menssage{
-        font-size: 12px;
     }
     
   }
