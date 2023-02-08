@@ -11,6 +11,11 @@
     gap: 8px;
     padding: 32px 0px 8px 0px;
 }
+.menssage{
+    font-size: 16px;
+    color: #E2E8F0;
+    font-weight: 300;
+}
 .title{
     font-weight: 600;
     background: linear-gradient(90deg, #FE8C00 2.54%, #F05D80 80.71%);
@@ -22,21 +27,28 @@
     font-size: 20px;
     padding: 0px 70px;
     padding-top: 8px;
+    font-weight: 300;
 }
 .quote{
     font-weight: 300;
     margin: 44px 0px 32px 0px;
     text-align: center;
+    font-weight: 300;
+    color: #E2E8F0;
 }
 
 
 @media screen and (max-width: 425px) {
     .paragraph{
-      padding: 0px 8px;
+      padding: 0px 9px;
       font-size: 18px;
     }
     .quote{
         font-size: 15px;
+        padding: 0px 10px;
+    }
+    .menssage{
+        font-size: 12px;
     }
     
   }

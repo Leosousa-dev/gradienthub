@@ -6,7 +6,7 @@ import styles from './hero.module.css'
 const Hero = ()=>{
     return(
         <section className={styles.hero}>
-            <span>👋 Welcome to</span>
+            <span className={styles.menssage}>👋 Welcome to</span>
             <div className={styles.flex}>
                 <Image src={emoji} alt="emoji nice"/>
                 <h1 className={styles.title}>GridientHub</h1>
