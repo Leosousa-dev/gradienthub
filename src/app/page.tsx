@@ -11,7 +11,7 @@ export default function Home() {
         <GradientSection/>
       </main>
       <footer className={styles.footer}>
-        <p>© 2022 Leonardo, no cookies here 🍪</p>
+        <p className={styles.pfooter}>© 2022 Leonardo, no cookies here 🍪</p>
       </footer>
     </>
   )

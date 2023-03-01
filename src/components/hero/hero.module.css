@@ -21,6 +21,13 @@
     width: 150px;
     text-decoration: underline;
 }
+.textgradient{
+    background: linear-gradient(89.86deg, #FD8A06 36.89%, #F16077 77.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 @media (max-width: 425px){
     .container{
         flex-direction: column-reverse;

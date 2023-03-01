@@ -25,6 +25,13 @@
     justify-content: space-between;
     gap: 24px;
 }
+.textgradient{
+    background: linear-gradient(89.81deg, #A0FF87 52.62%, #7EFFCA 97.47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 @media screen and (max-width: 425px) {
     .section{
         margin-top: 100px;

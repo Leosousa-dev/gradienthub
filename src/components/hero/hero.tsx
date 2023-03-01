@@ -11,7 +11,7 @@ export default function Hero(){
             <div className={styles.container}>
                <div className={styles.box}>
                   <span>Open source tool</span>
-                  <h1>Amazing gradients for your next design project</h1>
+                  <h1>Amazing <strong className={styles.textgradient}>gradients</strong> for your next design project</h1>
                   <p>Transforme seus designs com nossos gradientes personalizados e prontos para uso</p>
                   <Link href="/gradients" className={styles.button}>View gradients 👉️</Link>
                </div>

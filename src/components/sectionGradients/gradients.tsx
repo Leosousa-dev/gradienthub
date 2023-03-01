@@ -7,7 +7,7 @@ export default function GradientSection(){
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.box}>
-                    <h2>🤯 Amazing gradients for your projects</h2>
+                    <h2>🤯 Amazing <strong className={styles.textgradient}>gradients</strong> for your projects</h2>
                     <p>Crie designs únicos e impressionantes com nossos gradientes personalizados</p>
                 </div>
             </div>
