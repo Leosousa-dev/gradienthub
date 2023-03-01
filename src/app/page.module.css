@@ -10,3 +10,8 @@
     align-items: center;
     padding: 24px 0px;
 }
+@media (max-width: 425px){
+    .footer{
+        text-align: center;
+    }
+}
