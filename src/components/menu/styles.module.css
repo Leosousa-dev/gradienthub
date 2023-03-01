@@ -10,11 +10,13 @@
 }
 
 @media (max-width: 768px){
-    .list{
-        display: none;
-    }
     .img{
         width: 131px;
         height: 24px;
+    }
+}
+@media (max-width: 425px){
+    .list{
+        display: none;
     }
 }
