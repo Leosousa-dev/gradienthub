@@ -13,7 +13,7 @@ export default function Hero(){
                   <span>Open source tool</span>
                   <h1>Amazing gradients for your next design project</h1>
                   <p>Transforme seus designs com nossos gradientes personalizados e prontos para uso</p>
-                  <Link href="/" className={styles.button}>View gradients 👉️</Link>
+                  <Link href="/gradients" className={styles.button}>View gradients 👉️</Link>
                </div>
                <div>
                  <Image src={gradientPreview} alt="cardGradient"/>

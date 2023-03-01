@@ -1,8 +1,21 @@
 
 .section{
+    margin-top: 165px;
     margin-bottom: 32px;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    max-width: 474px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+}
 .listCards{
+    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

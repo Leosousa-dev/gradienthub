@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <main className={styles.main}>
         <Hero/>
-        {/* <GradientSection/> */}
+        <GradientSection/>
       </main>
       {/* <footer className={styles.footer}>
         <p>© 2022 Leonardo, no cookies here 🍪</p>
