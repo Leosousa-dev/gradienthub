@@ -1,20 +1,24 @@
 import Image from 'next/image';
-import emoji from '@/assets/emoji.png'
-import preview from '@/assets/preview.svg'
+import gradientPreview from '@/assets/gradientPreview.svg'
 import styles from './hero.module.css'
 import Menu from '../menu/menu';
+import Link from 'next/link';
 
 export default function Hero(){
     return(
         <section className={styles.hero}>
             <Menu/>
-            <div className={styles.flex}>
-                  <Image src={emoji} alt="emoji nice" className={styles.emoji}/>
-                <h1 className={styles.title}>GridientHub</h1>
+            <div className={styles.container}>
+               <div className={styles.box}>
+                  <span>Open source tool</span>
+                  <h1>Amazing gradients for your next design project</h1>
+                  <p>Transforme seus designs com nossos gradientes personalizados e prontos para uso</p>
+                  <Link href="/" className={styles.button}>View gradients 👉️</Link>
+               </div>
+               <div>
+                 <Image src={gradientPreview} alt="cardGradient"/>
+               </div>
             </div>
-            <Image src={preview} alt="exploding-head"/>
-            <p className={styles.paragraph}>This page offers vibrant and eye-catching gradients to enhance the UI appearance.</p>
-            <p className={styles.quote}>“Simplicity and the highest degree of sophistication”</p>
         </section>
     )
 }

@@ -7,30 +7,30 @@
 }
 :root{
   --background-color: #0A0A0A;
-  --Title: #F4F4F5;
-  --Titlesize: 36px
-  --Paragraph: #D4D4D8;
-  --Paragraphsize: 24px;
-  --TitleMobile: 30px;
-  --ParagraphMbobile: 20px;
 }
 a{
   color: #D4D4D8;
 }
 h1,h2{
-  color: var(--Title);
+  color: #F4F4F5;
+  font-size: 36px;
 }
 p{
-  color: var(--Paragraph);
+  color: #D4D4D8;
+  font-size: 24px;
+  font-weight: 300;
+}
+span{
+  color: #D4D4D8;
 }
 body{
   background-color: var(--background-color);
 }
 @media (max-width: 425px){
   h1,h2{
-    font-size: var(--TitleMobile);
+    font-size: 30px;
   }
   p{
-    font-size: var(--ParagraphMbobile);
+    font-size: 20px;
   }
 }
