@@ -8,7 +8,7 @@ export default function GradientSection(){
             <div className={styles.container}>
                 <div className={styles.box}>
                     <h2>🤯 Amazing <strong className={styles.textgradient}>gradients</strong> for your projects</h2>
-                    <p>Crie designs únicos e impressionantes com nossos gradientes personalizados</p>
+                    <p>Create unique and impressive designs with our custom gradients</p>
                 </div>
             </div>
             <ul className={styles.listCards}>
