@@ -10,9 +10,9 @@ export default function Home() {
         <Hero/>
         <GradientSection/>
       </main>
-      {/* <footer className={styles.footer}>
+      <footer className={styles.footer}>
         <p>© 2022 Leonardo, no cookies here 🍪</p>
-      </footer> */}
+      </footer>
     </>
   )
 }

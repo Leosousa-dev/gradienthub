@@ -4,9 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #22222A;
+    background-color: #191919;
     border-radius: 16px;
     padding-top: 3.2%;
+}
+.colorcode{
+    cursor: pointer;
+    color: #f4f4f5;
 }
 .gradient{
     width: 95%;
@@ -21,6 +25,6 @@
 }
 .box{
     display: flex;
-    gap: 4px;
+    gap: 5px;
     align-items: center;
 }
