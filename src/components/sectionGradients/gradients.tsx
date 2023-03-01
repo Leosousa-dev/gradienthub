@@ -2,7 +2,6 @@ import Card from "../cardGradient/card";
 import styles from './gradientSection.module.css'
 import {gradients} from '@/data/data.json'
 
-
 export default function GradientSection(){
     return(
         <section className={styles.section}>
@@ -16,7 +15,7 @@ export default function GradientSection(){
                {gradients?.map((gradient,id )=>(
                    <li key={id}><Card key={id} colors={gradient.colors}/></li>
                ))}
-            </ul>
+            </ul>   
         </section>
     )
 }

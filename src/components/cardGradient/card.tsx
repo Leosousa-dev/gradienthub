@@ -1,4 +1,6 @@
 import styles from './card.module.css'
+import copyicon from '@/assets/copyicon.svg'
+import Image from 'next/image'
 
 type Cardprops ={
     colors: string[]
@@ -8,19 +10,17 @@ type Cardprops ={
 const Card = ({colors}:Cardprops)=>{
     return(
         <div className={styles.card}>
-            <div className={styles.preview} style={{background:`linear-gradient(123.5deg, ${colors[0]} 0%, ${colors[1]} 100%)`}}/>
-            <div className={styles.copy}>
-                <div className={styles.colors}>
-                    <div className={styles.smallPreview} style={{background:`${colors[0]}`}}/>
-                    <h4 className={styles.hexcopy}>
-                        {colors[0]}
-                    </h4>
-                    <div className={styles.smallPreview} style={{background:`${colors[1]}`}}/>
-                    <h4 className={styles.hexcopy}>
-                        {colors[1]}
-                    </h4>
+           <div className={styles.gradient} style={{background: `linear-gradient(123.5deg, #BC4E9C 0%, #F80759 100%)`}}/>
+           <div className={styles.copyarea}>
+                <div className={styles.box}>
+                    <span>{colors[0]}</span>
+                    <Image src={copyicon} alt="copyicon" style={{width: '14px'}}/>
                 </div>
-            </div>
+                <div className={styles.box}>
+                    <span>{colors[1]}</span>
+                    <Image src={copyicon} alt="copyicon" style={{width: '14px'}}/> 
+                </div>
+           </div>
         </div>
     )
 }

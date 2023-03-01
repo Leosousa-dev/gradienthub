@@ -21,8 +21,3 @@
     width: 150px;
     text-decoration: underline;
 }
-@media (max-width: 768px) {
-    .hero{
-        padding: 0px 10px;
-    }
-  }
