@@ -26,8 +26,14 @@
     gap: 24px;
 }
 @media screen and (max-width: 425px) {
+    .section{
+        margin-top: 100px;
+    }
     .listCards{
      flex-direction: column;
      align-items: center;
-    }    
+    }
+    .listCards{
+        margin-top: 48px;
+    }  
   }
