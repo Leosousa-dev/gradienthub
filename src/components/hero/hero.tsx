@@ -2,11 +2,12 @@ import Image from 'next/image';
 import emoji from '@/assets/emoji.png'
 import preview from '@/assets/preview.svg'
 import styles from './hero.module.css'
+import Menu from '../menu/menu';
 
-const Hero = ()=>{
+export default function Hero(){
     return(
         <section className={styles.hero}>
-            <span>👋 Welcome to</span>
+            <Menu/>
             <div className={styles.flex}>
                   <Image src={emoji} alt="emoji nice" className={styles.emoji}/>
                 <h1 className={styles.title}>GridientHub</h1>
@@ -18,4 +19,3 @@ const Hero = ()=>{
     )
 }
 
-export default Hero;

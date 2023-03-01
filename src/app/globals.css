@@ -5,10 +5,32 @@
   text-decoration: none;
   list-style: none;
 }
-body{
-  background-color: #12121C;
-  color: #F3F3F4;
+:root{
+  --background-color: #0A0A0A;
+  --Title: #F4F4F5;
+  --Titlesize: 36px
+  --Paragraph: #D4D4D8;
+  --Paragraphsize: 24px;
+  --TitleMobile: 30px;
+  --ParagraphMbobile: 20px;
 }
-h4{
-  font-weight: 500;
+a{
+  color: #D4D4D8;
+}
+h1,h2{
+  color: var(--Title);
+}
+p{
+  color: var(--Paragraph);
+}
+body{
+  background-color: var(--background-color);
+}
+@media (max-width: 425px){
+  h1,h2{
+    font-size: var(--TitleMobile);
+  }
+  p{
+    font-size: var(--ParagraphMbobile);
+  }
 }

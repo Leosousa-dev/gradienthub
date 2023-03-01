@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 768px){
+    .list{
+        display: none;
+    }
+    .menu{
+        padding: 0px 10px;
+    }
+    .img{
+        width: 131px;
+        height: 24px;
+    }
+}

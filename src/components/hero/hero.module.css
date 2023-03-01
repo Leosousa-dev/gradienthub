@@ -1,9 +1,7 @@
 .hero{
     width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .flex{
     display: flex;
@@ -36,6 +34,11 @@
     color: #E2E8F0;
 }
 
+.gradient{
+    background: linear-gradient(90deg, #A0FF87 2.54%, #7EFFCA 80.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 @media screen and (max-width: 425px) {
     .paragraph{
