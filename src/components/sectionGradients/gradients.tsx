@@ -7,8 +7,8 @@ export default function GradientSection(){
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.box}>
-                    <h2>🤯 Amazing <strong className={styles.textgradient}>gradients</strong> for your projects</h2>
-                    <p>Create unique and impressive designs with our custom gradients</p>
+                    <h2>🤯 Amazing <strong className={styles.textgradient}>gradients</strong> for your next design project</h2>
+                    <p>Transform your designs with our custom, ready-to-use gradients</p>
                 </div>
             </div>
             <ul className={styles.listCards}>

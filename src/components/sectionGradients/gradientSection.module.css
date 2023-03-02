@@ -34,7 +34,7 @@
 }
 @media screen and (max-width: 425px) {
     .section{
-        margin-top: 100px;
+        margin-top: 64px;
     }
     .listCards{
      flex-direction: column;
