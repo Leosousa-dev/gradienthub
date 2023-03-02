@@ -5,6 +5,9 @@
     justify-content: space-between;
     padding: 20px 17px;
 }
+.link:hover{
+    color: #9BFF91;
+}
 .list{
     display: flex;
     gap: 30px;
